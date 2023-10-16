@@ -1,0 +1,28 @@
+<ul class="aw-menu__list">
+	<li class="aw-menu__item"> <a th:href="@{/admin/dashboard}"><i class="fa  fa-fw  fa-home"></i><span>Dashboard</span></a> </li>
+	<li class="aw-menu__item  is-active">
+    	<a href="#">
+			<i class="fa  fa-fw  fa-file-text"></i><span>Cadastros</span>
+			<i class="aw-menu__navigation-icon  fa"></i>
+		</a>
+      	<ul class="aw-menu__list  aw-menu__list--sublist">
+			<li class="aw-menu__item  aw-menu__item--link"><a href="cadastro-produto.html">Cadastro de produto</a></li>
+			<li class="aw-menu__item  aw-menu__item--link  is-active"><a href="pesquisa-produtos.html">Pesquisa de produtos</a></li>
+			<li class="aw-menu__item  aw-menu__item--link"><a href="tabela-sem-dados.html">Tabela sem dados</a></li>
+       	</ul>
+    </li>
+	<li class="aw-menu__item  is-expanded">
+		<a href="#">
+			<i class="fa  fa-fw  fa-file-text"></i><span>Páginas comuns</span>
+			<i class="aw-menu__navigation-icon  fa"></i>
+		</a>
+		<ul class="aw-menu__list  aw-menu__list--sublist">
+			<li class="aw-menu__item  aw-menu__item--link"><a href="pagina-vazia.html">Página vazia</a></li>
+			<li class="aw-menu__item  aw-menu__item--link"><a th:href="@{/admin/403}">403</a></li>
+			<li class="aw-menu__item  aw-menu__item--link"><a th:href="@{/admin/404}">404</a></li>
+			<li class="aw-menu__item  aw-menu__item--link"><a th:href="@{/admin/500}">500</a></li>
+		</ul>
+	</li>
+</ul>
+
+
